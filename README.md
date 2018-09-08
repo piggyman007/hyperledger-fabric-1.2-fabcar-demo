@@ -1,13 +1,15 @@
-# Hyperledger Awesome
-Hyperledger Demo is an application to demo the Hyperledger Fabric functionalities
+# Fabcar demo (fabric 1.2)
+This is the demo of fabcar (for hyperledger fabric 1.2)
 
 ---------------------------------------------------
-## API Deployment
 
-1. Install node modules `npm install`
-2. Start API on nodemon `npm start`
-3. Go to `http://localhost:3003` to verify the server status
+## Pre-requisit
+1. clone https://github.com/hyperledger/fabric-samples (branch release-1.2)
+2. run `fabcar/startFabric.sh` to start blockchain network locally
 
 ---------------------------------------------------
-## API Reference
-This API written based on [fabric-sdk-node](https://fabric-sdk-node.github.io/).
+
+## Run API
+1. run `npm i`
+2. run `npm start`
+3. import `fabric-demo.postman_collection.json` to postman and try to play
